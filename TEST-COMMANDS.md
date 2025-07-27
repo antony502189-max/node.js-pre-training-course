@@ -11,7 +11,9 @@ npm run test:all
 
 ### React CSS Tests
 ```bash
-npm run test:react-css
+# React CSS tests are now in the separate react-todo-app project
+cd React-CSS/react-todo-app
+npm test
 ```
 
 ### Docker Git Tests
@@ -44,7 +46,7 @@ npm run test:coverage
 ## Command Descriptions
 
 - `npm test` / `npm run test:all` - runs all tests in the `tests/` folder
-- `npm run test:react-css` - runs only React CSS tests
+- React CSS tests - now in separate project at `React-CSS/react-todo-app`
 - `npm run test:docker-git` - runs only Docker Git tests
 - `npm run test:db-nosql` - runs only DB NoSQL tests
 - `npm run test:js-ts` - runs only JS TS tests
@@ -54,7 +56,8 @@ npm run test:coverage
 ## Test Structure
 
 Tests are located in the `tests/` folder:
-- `react-css.test.js` - tests for React CSS
 - `docker-git.test.js` - tests for Docker Git
 - `db-nosql.test.js` - tests for DB NoSQL
 - `js-ts.test.js` - tests for JS TS 
+
+React CSS tests are now in the separate project at `React-CSS/react-todo-app/` 

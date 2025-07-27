@@ -9,24 +9,17 @@
   "scripts": {
     "test": "jest",
     "test:all": "jest",
-    "test:react-css": "jest tests/react-css.test.js",
     "test:docker-git": "jest tests/docker-git.test.js",
     "test:db-nosql": "jest tests/db-nosql.test.js",
     "test:js-ts": "jest tests/js-ts.test.js",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/preset-env": "^7.28.0",
-    "@babel/preset-react": "^7.27.1",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.3.0",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "^30.0.4",
-    "jest-environment-jsdom": "^30.0.5"
+    "jest": "^30.0.4"
   },
   "dependencies": {
     "express": "^5.1.0"
