@@ -63,48 +63,6 @@ node.js-pre-training-practice/
    - Version control with Git
    - Complete all 10 tasks in `Docker-Git/tasks/`
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js (version 14 or higher)
-- npm or yarn
-- Git
-
-### Setup
-
-1. **Fork and Clone**
-
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_FORK.git
-   cd node.js-pre-training-practice
-   ```
-
-2. **Install Dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Start with JS-TS**
-
-   ```bash
-   # Work on JavaScript/TypeScript tasks
-   cd JS-TS
-   # Complete tasks in tasks/ folder
-   # Implement solutions in solutions/ folder
-   ```
-
-4. **Move to React Application**
-   ```bash
-   cd React-CSS/react-todo-app
-   npm install
-   npm start
-   # Navigate to http://localhost:3000
-   # Complete React tasks in tasks/ folder
-   # Implement components in src/solutions/
-   ```
-
 ## Testing Your Solutions
 
 ### Root Level Tests
