@@ -12,4 +12,6 @@ export interface Todo {
   readonly createdAt: Date
 }
 
-export type NewTodo = Omit<Todo, "id" | "createdAt">
+export type NewTodo = Omit<Todo, "id" | "createdAt" | "status"> & {
+  status?: TodoStatus;
+};
